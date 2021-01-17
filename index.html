@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Feed | LinkedIn</title>
+	<link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+	<style>
+	body{
+        background: #F3F2EF;
+	}
+       
+	header input{
+		border-radius: 5px;
+		transition: width 0.4s;
+	}  
+	header input:focus{
+		width: 100%;
+	}
+	</style>
+</head>
+<body>
+	    <!-- Header Start -->
+	<header class="bg-white w-full h-16 flex justify-around sticky top-0">
+		<!-- <div class="lg:container mx-auto flex justify-around"> -->
+		 <div class="flex items-center">
+				<div class="logo">
+					<img src="img/logo.jpg" alt="Logo" class="w-10 h-10">
+				</div>
+				<div class="flex items-center justify-start ml-2">
+				 <form method="GET">
+					<div class="relative text-gray-600 focus-within:text-gray-400 w-96 rounded-2xl duration-300">
+						<span class="absolute inset-y-0 left-0 flex items-center pl-2">
+							<button type="submit" class="p-1 focus:outline-none focus:shadow-outline">
+								<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-6 h-6"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+							</button>
+						</span>
+						<input type="search" name="q" class="w-64 py-2 text-sm text-white bg-gray-100 pl-10 focus:outline-none focus:text-gray-900" placeholder="Search" autocomplete="off">
+					</div>
+				 </form>
+				</div>
+			</div>
+		    <div class="flex flex-row justify-evenly">
+				<a href="index.html" class="border-b-2 border-black">
+					<div class="flex flex-col text-center px-4 py-1">
+						<i class="fa fa-home text-2xl"></i>
+						<h4 class="text-xs">Home</h4>
+					</div>
+				</a>
+				<a href="#">
+                    <div class="flex flex-col text-center text-gray-600 hover:text-black px-4 py-1">
+						<!-- <i class="fa fa-users text-2xl"></i> -->
+						<i class="material-icons text-2xl">supervisor_account</i>
+						<h4 class="text-xs">My Network</h4>
+					 </div>
+				</a>
+				<a href="#">
+                    <div class="flex flex-col text-center text-gray-600 hover:text-black px-4 py-1">
+						<i class="fa fa-suitcase text-2xl"></i>
+						<h4 class="text-xs">Jobs</h4>
+					 </div>
+				</a>
+				<a href="#">
+                    <div class="flex flex-col text-center text-gray-600 hover:text-black px-4 py-1">
+						<i class="material-icons text-2xl">sms</i>
+						<h4 class="text-xs">Messaging</h4>
+					 </div>
+				</a>
+				<a href="#">
+					<div class="flex flex-col text-center text-gray-600 hover:text-black px-4 py-1">
+						<i class="fa fa-bell text-2xl"></i>
+						<h4 class="text-xs">Notifications</h4>
+					 </div>
+				</a>
+				<a href="#" class="border-r">
+					<div class="flex flex-col text-center text-gray-600 hover:text-black px-4 py-1">
+						<div class="text-2xl mb-1">
+                            <img src="img/tuhinphoto.jpg" alt="Avatar" class="w-7 h-7 rounded-full">
+						</div>
+						<h4 class="text-xs">Me <i class="fa fa-angle-down 2x"></i></h4>
+					 </div>
+				</a>
+				<a href="#">
+					<div class="flex flex-col text-center text-gray-600 hover:text-black px-4 py-1">
+						<div class="mb-1">
+						  <img src="img/work.png" alt="" class="w-7 h-7">
+					    </div>
+						<h4 class="text-xs">Work <i class="fa fa-angle-down 2x"></i></h4>
+					 </div>
+				</a>
+				<a href="" class="hover:underline">
+                    <div class="flex flex-col justify-center items-center text-center h-16 text-gray-500 px-4 py-1">
+						<h4 class="text-xs">Try Premium Free<br>for 1 month</h4>
+					 </div>
+				</a>			
+			</div>
+		<!-- </div>	 -->
+	</header>
+		  <!-- Header End -->
+		  
+		 <!-- Main Section -->
+<main class="mt-5">
+	<div class="xl:container mx-auto flex justify-around">
+		 <!-- Sidebar Left -->
+    <div class="sidebar-left">
+		<div class="bg-white flex flex-col text-center border border-gray-200 rounded-lg">
+			<img src="img/sidebar-left.jpg" alt="sidebar-img" class="w-64 h-auto rounded-t-lg">
+			<img src="img/tuhinphoto.jpg" alt="Avatar" class="w-16 h-16 rounded-full -mt-7 self-center">
+			<div>
+				<div class="flex flex-col p-4 border-b">
+					<h2 class="font-bold"><a href="#" class="text-gray-700 hover:underline">Md. Shofiul Alam</a></h2>
+					<h4 class="text-sm">Attended University of Dhaka</h4>
+				</div>
+			</div>
+			<div class="flex flex-col border-b">
+				<a href="#" class="hover:bg-gray-200">
+					<div class="flex justify-between p-4">
+						<div class="flex flex-col">
+							<p class="text-xs self-start">Connections</p>
+							<p class="text-xs font-bold self-start">Grow your network</p>
+						</div>
+						<p class="text-xs">40</p>
+					</div>
+				</a>
+				<a href="#" class="hover:bg-gray-200">
+					<div class="flex justify-between px-4 py-2">
+						<p class="text-xs">Who viewed your profile</p>
+						<p class="text-xs">7</p>
+					</div>
+				</a>
+				<a href="#" class="hover:bg-gray-200 hover:underline">
+					<div class="flex flex-col p-4 border-b">
+						<p class="text-xs text-gray-500 self-start">Access exclusive tools & insights</p>
+						<p class="text-xs text-gray-600 font-bold self-start">Try Premium Free For 1 Month</p>
+					</div>
+				</a>
+				<a href="#" class="hover:bg-gray-200">
+					<div class="flex p-3">
+						<img src="img/clip.png" alt="clip" class="h-6 w-3">
+						<p class="text-sm text-gray-900 ml-1">My Items</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	<div class="sidebar-bottom flex flex-col border border-gray-200 rounded-lg bg-white mt-2 sticky top-20">
+		<div class="flex justify-between items-center mb-2 p-3">
+			<h4 class="text-sm font-bold text-gray-700">Recent</h4>
+			<i class="fa fa-angle-down w-8 h-8 bg-gray-200 rounded-full text-2xl text-center text-opacity-0 bg-opacity-0 hover:bg-opacity-100 hover:text-opacity-100"></i>
+		</div>
+		<div class="flex flex-col justify-between mb-2">
+			<a href="#" class="hover:bg-gray-200">
+				<div class="flex items-center mb-2 px-3 py-2">
+					<i class="fa fa-hashtag text-gray-500 text-xs"></i>
+					<p class="ml-1 text-gray-500 text-xs">JavaScript</p>
+				</div>
+			</a>
+			<a href="#" class="hover:bg-gray-200">
+				<div class="flex items-center mb-2 px-3 py-2">
+					<i class="fa fa-hashtag text-gray-500 text-xs"></i>
+					<p class="ml-1 text-gray-500 text-xs">Python</p>
+				</div>
+			</a>
+			<a href="#" class="hover:bg-gray-200">
+				<div class="flex items-center mb-2 px-3 py-2">
+					<i class="fa fa-hashtag text-gray-500 text-xs"></i>
+					<p class="ml-1 text-gray-500 text-xs">Programming</p>
+				</div>
+			</a>
+			<a href="#" class="hover:bg-gray-200">
+				<div class="flex items-center mb-2 px-3 py-2">
+					<i class="fa fa-hashtag text-gray-500 text-xs"></i>
+					<p class="ml-1 text-gray-500 text-xs">Frontend Design</p>
+				</div>
+			</a>
+		</div>
+		<div class="flex justify-between items-center mb-2 px-3 py-2">
+			<h4 class="text-sm font-bold text-gray-700">Groups</h4>
+			<i class="fa fa-angle-down w-8 h-8 bg-gray-200 rounded-full text-2xl text-center text-opacity-0 bg-opacity-0 hover:bg-opacity-100 hover:text-opacity-100"></i>
+		</div>
+		<div class="flex flex-col justify-between mb-2">
+			<a href="#" class="hover:bg-gray-200">
+				<div class="flex items-center mb-2 px-3 py-2">
+					<i class="fa fa-users text-gray-500 text-xs"></i>
+					<p class="ml-2 text-gray-500 text-xs">JavaScript Learning Group</p>
+				</div>
+			</a>
+			<a href="#" class="hover:bg-gray-200">
+				<div class="flex items-center mb-2 px-3 py-2">
+					<i class="fa fa-users text-gray-500 text-xs"></i>
+					<p class="ml-2 text-gray-500 text-xs">Software Programming</p>
+				</div>
+			</a>
+			<a href="#" class="hover:bg-gray-200">
+				<div class="flex px-3 py-2">
+					<p class="text-xs text-gray-900 font-bold">See all</p>
+				</div>
+			</a>
+		</div>
+		<a href="#" class="hover:bg-gray-200">
+			<div class="flex justify-between px-3 py-2">
+				<p class="text-xs text-blue-700 font-bold hover:underline">Events</p>
+				<i class="fa fa-plus text-xs text-gray-500"></i>
+			</div>
+		</a>
+		<a href="#" class="hover:bg-gray-200 border-b-2">
+			<div class="flex flex-col px-3 py-2">
+				<p class="text-xs text-blue-700 font-bold hover:underline">Followed Hashtags</p>
+			</div>
+		</a>
+		<a href="#" class="hover:bg-gray-200">
+			<div class="px-3 py-4">
+				<p class="text-xs text-gray-700 font-bold text-center">Discover More</p>
+			</div>
+		</a>
+	</div>
+</div>
+		<!----------- Sidebar Left End ------------->
+		  
+		<!----------- Feed ------------->
+
+		<div class="feed w-1/2 flex flex-col">
+			<div class="flex flex-col bg-white p-4 border border-gray-200 rounded-lg">
+				<div class="flex items-center bg-gray-200 border border-gray-300 rounded-full p-2 mb-2">
+                    <i class="fa fa-edit 3x text-2xl text-black pl-2"></i>
+			        <input type="text" placeholder="Start a post" class="w-full pl-4 bg-gray-200 text-gray-700 focus:outline-none">
+				</div>
+				<div class="flex justify-around">
+					<a href="#" class="hover:bg-gray-200">
+						<div class="flex items-center p-1">
+							<i class="fa fa-image text-blue-500 text-lg"></i>
+							<h4 class="ml-2 text-gray-400 text-lg font-normal">Photo</h4>
+						</div>
+					</a>
+					<a href="#" class="hover:bg-gray-200">
+						<div class="flex items-center p-1">
+							<i class="fa fa-video-camera text-green-500 text-lg"></i>
+							<h4 class="ml-2 text-gray-400 text-lg font-normal">Video</h4>
+						</div>
+					</a>
+					<a href="#" class="hover:bg-gray-200">
+						<div class="flex items-center p-1">
+							<i class="fa fa-clipboard text-blue-500 text-lg"></i>
+							<h4 class="ml-2 text-gray-400 text-lg font-normal">Goal</h4>
+						</div>
+					</a>
+					<a href="#" class="hover:bg-gray-200">
+						<div class="flex items-center p-1">
+							<i class="fa fa-newspaper-o text-red-400 text-lg"></i>
+							<h4 class="ml-2 text-gray-400 text-lg font-normal">Write article</h4>
+						</div>
+					</a>
+				</div>   
+			</div>
+				<!-- Feed header end -->
+				
+				<!-- Feed Single Post -->
+	
+		<div class="bg-white p-3 flex items-center w-full border rounded-lg mt-2">
+			<div class="px-4 py-2">
+			  <div class="flex justify-between items-start">
+				<div class="flex items-center">
+					<img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"/>
+					<div class="ml-2">
+					<div class="text-sm ">
+						<span class="font-semibold">Steven Spillberg</span>
+						<span class="text-gray-500"> • 1st</span>
+					</div>
+					<div class="text-gray-500 text-xs ">Software Engineer at Tesla, Inc</div>
+					<div class="text-gray-500 text-xs flex">
+						<span class="inline-block">3d • Edited • </span>
+						<svg class="inline-block ml-1 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+						<path d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z"></path>
+						</svg>
+					</div>
+					</div>
+				</div>
+				<div class="">
+					<a href="#" class="text-2xl">...</a>
+				</div>
+				</div>
+				<p class="text-gray-800 text-sm mt-2 leading-normal md:leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div class="text-gray-500 text-xs flex items-center mt-3 pb-2 border-b">
+					<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb"/>
+					<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f"/>
+					<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97"/>
+					<a href="#"><span class="ml-1">47 • 26 comments</span></a>
+				 </div>
+				 <div class="flex mt-3">
+					<a href="#" class="hover:bg-gray-200 mr-4">
+						<div class="flex items-center p-1">
+							<i class="fa fa-thumbs-o-up text-gray-600 text-lg"></i>
+							<h4 class="ml-1 text-gray-600 text-sm font-normal">Like</h4>
+						</div>
+					</a>
+					<a href="#" class="hover:bg-gray-200 mr-4">
+						<div class="flex items-center p-1">
+							<i class="fa fa-commenting-o text-gray-600 text-lg"></i>
+							<h4 class="ml-1 text-gray-600 text-sm font-normal">Comment</h4>
+						</div>
+					</a>
+					<a href="#" class="hover:bg-gray-200 mr-4">
+						<div class="flex items-center p-1">
+							<i class="fa fa-share text-gray-600 text-lg"></i>
+							<h4 class="ml-1 text-gray-600 text-sm font-normal">Share</h4>
+						</div>
+					</a>
+					<a href="#" class="hover:bg-gray-200 mr-4">
+						<div class="flex items-center p-1">
+							<i class="fa fa-paper-plane text-gray-600 text-lg"></i>
+							<h4 class="ml-1 text-gray-600 text-sm font-normal">Send</h4>
+						</div>
+					</a>
+				 </div>
+				 <div class="flex justify-between mt-5">
+					 <img src="img/tuhinphoto.jpg" alt="" class="w-10 h-10 rounded-full">
+					 <div class="flex justify-between items-center border border-gray-300 rounded-full text-gray-200 w-11/12 px-4 py-2">
+						 <input type="text" placeholder="Add your comment...." class="w-full bg-transparent text-gray-800 focus:outline-none focus:border-black">
+						 <div class="flex">
+							<a href=""><i class="fa fa-smile-o text-gray-800 text-lg"></i></a>
+							<a href=""><i class="fa fa-image text-gray-800 text-lg ml-4"></i></a>
+						 </div>
+					 </div>
+				 </div>
+				</div>
+			</div>
+				 <!-- Feed Single Post End -->
+
+				<!-- Feed Single Post -->
+	
+		<div class="bg-white p-3 flex items-center w-full border rounded-lg mt-2">
+			<div class="px-4 py-2">
+			  <div class="flex justify-between items-start">
+				<div class="flex items-center">
+					<img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"/>
+					<div class="ml-2">
+					<div class="text-sm ">
+						<span class="font-semibold">Steven Spillberg</span>
+						<span class="text-gray-500"> • 1st</span>
+					</div>
+					<div class="text-gray-500 text-xs ">Software Engineer at Tesla, Inc</div>
+					<div class="text-gray-500 text-xs flex">
+						<span class="inline-block">3d • Edited • </span>
+						<svg class="inline-block ml-1 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+						<path d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z"></path>
+						</svg>
+					</div>
+					</div>
+				</div>
+				<div class="">
+					<a href="#" class="text-2xl">...</a>
+				</div>
+				</div>
+				<p class="text-gray-800 text-sm mt-2 leading-normal md:leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div class="text-gray-500 text-xs flex items-center mt-3 pb-2 border-b">
+					<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb"/>
+					<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f"/>
+					<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97"/>
+					<a href="#"><span class="ml-1">47 • 26 comments</span></a>
+				 </div>
+				 <div class="flex mt-3">
+					<a href="#" class="hover:bg-gray-200 mr-4">
+						<div class="flex items-center p-1">
+							<i class="fa fa-thumbs-o-up text-gray-600 text-lg"></i>
+							<h4 class="ml-1 text-gray-600 text-sm font-normal">Like</h4>
+						</div>
+					</a>
+					<a href="#" class="hover:bg-gray-200 mr-4">
+						<div class="flex items-center p-1">
+							<i class="fa fa-commenting-o text-gray-600 text-lg"></i>
+							<h4 class="ml-1 text-gray-600 text-sm font-normal">Comment</h4>
+						</div>
+					</a>
+					<a href="#" class="hover:bg-gray-200 mr-4">
+						<div class="flex items-center p-1">
+							<i class="fa fa-share text-gray-600 text-lg"></i>
+							<h4 class="ml-1 text-gray-600 text-sm font-normal">Share</h4>
+						</div>
+					</a>
+					<a href="#" class="hover:bg-gray-200 mr-4">
+						<div class="flex items-center p-1">
+							<i class="fa fa-paper-plane text-gray-600 text-lg"></i>
+							<h4 class="ml-1 text-gray-600 text-sm font-normal">Send</h4>
+						</div>
+					</a>
+				 </div>
+				 <div class="flex justify-between mt-5">
+					<img src="img/tuhinphoto.jpg" alt="" class="w-10 h-10 rounded-full">
+					<div class="flex justify-between items-center border border-gray-300 rounded-full text-gray-200 w-11/12 px-4 py-2">
+						<input type="text" placeholder="Add your comment...." class="w-full bg-transparent text-gray-800 focus:outline-none focus:border-black">
+						<div class="flex">
+						   <a href=""><i class="fa fa-smile-o text-gray-800 text-lg"></i></a>
+						   <a href=""><i class="fa fa-image text-gray-800 text-lg ml-4"></i></a>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+				 <!-- Feed Single Post End -->
+
+				<!-- Feed Single Post -->
+	
+		<div class="bg-white p-3 flex items-center w-full border rounded-lg mt-2">
+			<div class="px-4 py-2">
+			  <div class="flex justify-between items-start">
+				<div class="flex items-center">
+					<img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"/>
+					<div class="ml-2">
+					<div class="text-sm ">
+						<span class="font-semibold">Steven Spillberg</span>
+						<span class="text-gray-500"> • 1st</span>
+					</div>
+					<div class="text-gray-500 text-xs ">Software Engineer at Tesla, Inc</div>
+					<div class="text-gray-500 text-xs flex">
+						<span class="inline-block">3d • Edited • </span>
+						<svg class="inline-block ml-1 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+						<path d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z"></path>
+						</svg>
+					</div>
+					</div>
+				</div>
+				<div class="">
+					<a href="#" class="text-2xl">...</a>
+				</div>
+				</div>
+				<p class="text-gray-800 text-sm mt-2 leading-normal md:leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div class="text-gray-500 text-xs flex items-center mt-3 pb-2 border-b">
+					<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb"/>
+					<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f"/>
+					<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97"/>
+					<a href="#"><span class="ml-1">47 • 26 comments</span></a>
+				 </div>
+				 <div class="flex mt-3">
+					<a href="#" class="hover:bg-gray-200 mr-4">
+						<div class="flex items-center p-1">
+							<i class="fa fa-thumbs-o-up text-gray-600 text-lg"></i>
+							<h4 class="ml-1 text-gray-600 text-sm font-normal">Like</h4>
+						</div>
+					</a>
+					<a href="#" class="hover:bg-gray-200 mr-4">
+						<div class="flex items-center p-1">
+							<i class="fa fa-commenting-o text-gray-600 text-lg"></i>
+							<h4 class="ml-1 text-gray-600 text-sm font-normal">Comment</h4>
+						</div>
+					</a>
+					<a href="#" class="hover:bg-gray-200 mr-4">
+						<div class="flex items-center p-1">
+							<i class="fa fa-share text-gray-600 text-lg"></i>
+							<h4 class="ml-1 text-gray-600 text-sm font-normal">Share</h4>
+						</div>
+					</a>
+					<a href="#" class="hover:bg-gray-200 mr-4">
+						<div class="flex items-center p-1">
+							<i class="fa fa-paper-plane text-gray-600 text-lg"></i>
+							<h4 class="ml-1 text-gray-600 text-sm font-normal">Send</h4>
+						</div>
+					</a>
+				 </div>
+				 <div class="flex justify-between mt-5">
+					<img src="img/tuhinphoto.jpg" alt="" class="w-10 h-10 rounded-full">
+					<div class="flex justify-between items-center border border-gray-300 rounded-full text-gray-200 w-11/12 px-4 py-2">
+						<input type="text" placeholder="Add your comment...." class="w-full bg-transparent text-gray-800 focus:outline-none focus:border-black">
+						<div class="flex">
+						   <a href=""><i class="fa fa-smile-o text-gray-800 text-lg"></i></a>
+						   <a href=""><i class="fa fa-image text-gray-800 text-lg ml-4"></i></a>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+				 <!-- Feed Single Post End -->
+
+				<!-- Feed Single Post -->
+	
+		<div class="bg-white p-3 flex items-center w-full border rounded-lg mt-2">
+			<div class="px-4 py-2">
+			  <div class="flex justify-between items-start">
+				<div class="flex items-center">
+					<img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"/>
+					<div class="ml-2">
+					<div class="text-sm ">
+						<span class="font-semibold">Steven Spillberg</span>
+						<span class="text-gray-500"> • 1st</span>
+					</div>
+					<div class="text-gray-500 text-xs ">Software Engineer at Tesla, Inc</div>
+					<div class="text-gray-500 text-xs flex">
+						<span class="inline-block">3d • Edited • </span>
+						<svg class="inline-block ml-1 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+						<path d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z"></path>
+						</svg>
+					</div>
+					</div>
+				</div>
+				<div class="">
+					<a href="#" class="text-2xl">...</a>
+				</div>
+				</div>
+				<p class="text-gray-800 text-sm mt-2 leading-normal md:leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div class="text-gray-500 text-xs flex items-center mt-3 pb-2 border-b">
+					<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb"/>
+					<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f"/>
+					<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97"/>
+					<a href="#"><span class="ml-1">47 • 26 comments</span></a>
+				 </div>
+				 <div class="flex mt-3">
+					<a href="#" class="hover:bg-gray-200 mr-4">
+						<div class="flex items-center p-1">
+							<i class="fa fa-thumbs-o-up text-gray-600 text-lg"></i>
+							<h4 class="ml-1 text-gray-600 text-sm font-normal">Like</h4>
+						</div>
+					</a>
+					<a href="#" class="hover:bg-gray-200 mr-4">
+						<div class="flex items-center p-1">
+							<i class="fa fa-commenting-o text-gray-600 text-lg"></i>
+							<h4 class="ml-1 text-gray-600 text-sm font-normal">Comment</h4>
+						</div>
+					</a>
+					<a href="#" class="hover:bg-gray-200 mr-4">
+						<div class="flex items-center p-1">
+							<i class="fa fa-share text-gray-600 text-lg"></i>
+							<h4 class="ml-1 text-gray-600 text-sm font-normal">Share</h4>
+						</div>
+					</a>
+					<a href="#" class="hover:bg-gray-200 mr-4">
+						<div class="flex items-center p-1">
+							<i class="fa fa-paper-plane text-gray-600 text-lg"></i>
+							<h4 class="ml-1 text-gray-600 text-sm font-normal">Send</h4>
+						</div>
+					</a>
+				 </div>
+				 <div class="flex justify-between mt-5">
+					<img src="img/tuhinphoto.jpg" alt="" class="w-10 h-10 rounded-full">
+					<div class="flex justify-between items-center border border-gray-300 rounded-full text-gray-200 w-11/12 px-4 py-2">
+						<input type="text" placeholder="Add your comment...." class="w-full bg-transparent text-gray-800 focus:outline-none focus:border-black">
+						<div class="flex">
+						   <a href=""><i class="fa fa-smile-o text-gray-800 text-lg"></i></a>
+						   <a href=""><i class="fa fa-image text-gray-800 text-lg ml-4"></i></a>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+				 <!-- Feed Single Post End -->
+
+				<!-- Feed Single Post -->
+	
+		<div class="bg-white p-3 flex items-center w-full border rounded-lg mt-2">
+			<div class="px-4 py-2">
+			  <div class="flex justify-between items-start">
+				<div class="flex items-center">
+					<img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"/>
+					<div class="ml-2">
+					<div class="text-sm ">
+						<span class="font-semibold">Steven Spillberg</span>
+						<span class="text-gray-500"> • 1st</span>
+					</div>
+					<div class="text-gray-500 text-xs ">Software Engineer at Tesla, Inc</div>
+					<div class="text-gray-500 text-xs flex">
+						<span class="inline-block">3d • Edited • </span>
+						<svg class="inline-block ml-1 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+						<path d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z"></path>
+						</svg>
+					</div>
+					</div>
+				</div>
+				<div class="">
+					<a href="#" class="text-2xl">...</a>
+				</div>
+				</div>
+				<p class="text-gray-800 text-sm mt-2 leading-normal md:leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div class="text-gray-500 text-xs flex items-center mt-3 pb-2 border-b">
+					<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb"/>
+					<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f"/>
+					<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97"/>
+					<a href="#"><span class="ml-1">47 • 26 comments</span></a>
+				 </div>
+				 <div class="flex mt-3">
+					<a href="#" class="hover:bg-gray-200 mr-4">
+						<div class="flex items-center p-1">
+							<i class="fa fa-thumbs-o-up text-gray-600 text-lg"></i>
+							<h4 class="ml-1 text-gray-600 text-sm font-normal">Like</h4>
+						</div>
+					</a>
+					<a href="#" class="hover:bg-gray-200 mr-4">
+						<div class="flex items-center p-1">
+							<i class="fa fa-commenting-o text-gray-600 text-lg"></i>
+							<h4 class="ml-1 text-gray-600 text-sm font-normal">Comment</h4>
+						</div>
+					</a>
+					<a href="#" class="hover:bg-gray-200 mr-4">
+						<div class="flex items-center p-1">
+							<i class="fa fa-share text-gray-600 text-lg"></i>
+							<h4 class="ml-1 text-gray-600 text-sm font-normal">Share</h4>
+						</div>
+					</a>
+					<a href="#" class="hover:bg-gray-200 mr-4">
+						<div class="flex items-center p-1">
+							<i class="fa fa-paper-plane text-gray-600 text-lg"></i>
+							<h4 class="ml-1 text-gray-600 text-sm font-normal">Send</h4>
+						</div>
+					</a>
+				 </div>
+				 <div class="flex justify-between mt-5">
+					<img src="img/tuhinphoto.jpg" alt="" class="w-10 h-10 rounded-full">
+					<div class="flex justify-between items-center border border-gray-300 rounded-full text-gray-200 w-11/12 px-4 py-2">
+						<input type="text" placeholder="Add your comment...." class="w-full bg-transparent text-gray-800 focus:outline-none focus:border-black">
+						<div class="flex">
+						   <a href=""><i class="fa fa-smile-o text-gray-800 text-lg"></i></a>
+						   <a href=""><i class="fa fa-image text-gray-800 text-lg ml-4"></i></a>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+				 <!-- Feed Single Post -->
+				 
+				 <!-- Feed Single Post -->
+	     <div class="bg-white p-3 flex items-center w-full border rounded-lg mt-2">
+			<div class="px-4 py-2">
+				<div class="flex justify-between items-start">
+					<div class="flex items-center">
+						<img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"/>
+						<div class="ml-2">
+						<div class="text-sm ">
+								<span class="font-semibold">Steven Spillberg</span>
+								<span class="text-gray-500"> • 1st</span>
+						</div>
+						<div class="text-gray-500 text-xs ">Software Engineer at Tesla, Inc</div>
+						<div class="text-gray-500 text-xs flex">
+								<span class="inline-block">3d • Edited • </span>
+								<svg class="inline-block ml-1 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+								<path d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z"></path>
+								</svg>
+						</div>
+							</div>
+						</div>
+						<div class="">
+							<a href="#" class="text-2xl">...</a>
+						</div>
+						</div>
+						<p class="text-gray-800 text-sm mt-2 leading-normal md:leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<div class="text-gray-500 text-xs flex items-center mt-3 pb-2 border-b">
+							<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb"/>
+							<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f"/>
+							<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97"/>
+							<a href="#"><span class="ml-1">47 • 26 comments</span></a>
+						 </div>
+						 <div class="flex mt-3">
+							<a href="#" class="hover:bg-gray-200 mr-4">
+								<div class="flex items-center p-1">
+									<i class="fa fa-thumbs-o-up text-gray-600 text-lg"></i>
+									<h4 class="ml-1 text-gray-600 text-sm font-normal">Like</h4>
+								</div>
+							</a>
+							<a href="#" class="hover:bg-gray-200 mr-4">
+								<div class="flex items-center p-1">
+									<i class="fa fa-commenting-o text-gray-600 text-lg"></i>
+									<h4 class="ml-1 text-gray-600 text-sm font-normal">Comment</h4>
+								</div>
+							</a>
+							<a href="#" class="hover:bg-gray-200 mr-4">
+								<div class="flex items-center p-1">
+									<i class="fa fa-share text-gray-600 text-lg"></i>
+									<h4 class="ml-1 text-gray-600 text-sm font-normal">Share</h4>
+								</div>
+							</a>
+							<a href="#" class="hover:bg-gray-200 mr-4">
+								<div class="flex items-center p-1">
+									<i class="fa fa-paper-plane text-gray-600 text-lg"></i>
+									<h4 class="ml-1 text-gray-600 text-sm font-normal">Send</h4>
+								</div>
+							</a>
+						 </div>
+						 <div class="flex justify-between mt-5">
+							<img src="img/tuhinphoto.jpg" alt="" class="w-10 h-10 rounded-full">
+							<div class="flex justify-between items-center border border-gray-300 rounded-full text-gray-200 w-11/12 px-4 py-2">
+								<input type="text" placeholder="Add your comment...." class="w-full bg-transparent text-gray-800 focus:outline-none focus:border-black">
+								<div class="flex">
+								   <a href=""><i class="fa fa-smile-o text-gray-800 text-lg"></i></a>
+								   <a href=""><i class="fa fa-image text-gray-800 text-lg ml-4"></i></a>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+				       <!-- Feed Single Post End -->
+
+
+				     <!-- Feed Single Post -->
+
+				 <div class="bg-white p-3 flex items-center w-full border rounded-lg mt-2">
+					<div class="px-4 py-2">
+					  <div class="flex justify-between items-start">
+						<div class="flex items-center">
+							<img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"/>
+							<div class="ml-2">
+							<div class="text-sm">
+								<span class="font-semibold">Steven Spillberg</span>
+								<span class="text-gray-500"> • 1st</span>
+							</div>
+							<div class="text-gray-500 text-xs ">Software Engineer at Tesla, Inc</div>
+							<div class="text-gray-500 text-xs flex">
+								<span class="inline-block">3d • Edited • </span>
+								<svg class="inline-block ml-1 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+								<path d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z"></path>
+								</svg>
+							</div>
+							</div>
+						</div>
+						<div class="">
+							<a href="#" class="text-2xl">...</a>
+						</div>
+						</div>
+						<p class="text-gray-800 text-sm mt-2 leading-normal md:leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<div class="text-gray-500 text-xs flex items-center mt-3 pb-2 border-b">
+							<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb"/>
+							<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f"/>
+							<img class="mr-0.5" src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97"/>
+							<a href="#"><span class="ml-1">47 • 26 comments</span></a>
+						 </div>
+						 <div class="flex mt-3">
+							<a href="#" class="hover:bg-gray-200 mr-4">
+								<div class="flex items-center p-1">
+									<i class="fa fa-thumbs-o-up text-gray-600 text-lg"></i>
+									<h4 class="ml-1 text-gray-600 text-sm font-normal">Like</h4>
+								</div>
+							</a>
+							<a href="#" class="hover:bg-gray-200 mr-4">
+								<div class="flex items-center p-1">
+									<i class="fa fa-commenting-o text-gray-600 text-lg"></i>
+									<h4 class="ml-1 text-gray-600 text-sm font-normal">Comment</h4>
+								</div>
+							</a>
+							<a href="#" class="hover:bg-gray-200 mr-4">
+								<div class="flex items-center p-1">
+									<i class="fa fa-share text-gray-600 text-lg"></i>
+									<h4 class="ml-1 text-gray-600 text-sm font-normal">Share</h4>
+								</div>
+							</a>
+							<a href="#" class="hover:bg-gray-200 mr-4">
+								<div class="flex items-center p-1">
+									<i class="fa fa-paper-plane text-gray-600 text-lg"></i>
+									<h4 class="ml-1 text-gray-600 text-sm font-normal">Send</h4>
+								</div>
+							</a>
+						 </div>
+						 <div class="flex justify-between mt-5">
+							<img src="img/tuhinphoto.jpg" alt="" class="w-10 h-10 rounded-full">
+							<div class="flex justify-between items-center border border-gray-300 rounded-full text-gray-200 w-11/12 px-4 py-2">
+								<input type="text" placeholder="Add your comment...." class="w-full bg-transparent text-gray-800 focus:outline-none focus:border-black">
+								<div class="flex">
+								   <a href=""><i class="fa fa-smile-o text-gray-800 text-lg"></i></a>
+								   <a href=""><i class="fa fa-image text-gray-800 text-lg ml-4"></i></a>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+                    <!-- Feed Single Post End -->
+		</div>
+			 <!-- Feed End -->
+			 
+		<!----------- Sidebar Right ------------->
+		<div class="sidebar-right w-1/4">
+			<div class="flex flex-col border border-gray-200 rounded-lg bg-white">
+				<div class="flex justify-between mb-2 p-3">
+					<h4 class="text-sm font-medium text-gray-500">Add to your feed</h4>
+					<img src="img/sidebar_right.png" alt="">
+				</div>
+				<div class="flex items-center mb-2 px-3 py-1">
+					<a href="#">
+						<img src="img/hash.svg" alt="hashtag image" class="w-10 h-10">
+					</a>
+					<a href="#">
+						<div class="flex items-center ml-3">
+							<i class="fa fa-hashtag font-normal"></i>
+							<p>business</p>
+						</div>
+					</a>
+					<div class="ml-auto">
+						<a href="#" class="border border-blue-600 rounded-full px-4 py-1 text-blue-600 text-xs font-bold">
+							<i class="fa fa-plus mr-1"></i>
+							Follow
+						</a>	
+					</div>
+				</div>
+				<div class="flex items-center mb-2 px-3 py-1">
+					<a href="#">
+						<img src="img/hash.svg" alt="hashtag image" class="w-10 h-10">
+					</a>
+					<a href="#">
+						<div class="flex items-center ml-3">
+							<i class="fa fa-hashtag font-normal"></i>
+							<p>marketing</p>
+						</div>
+					</a>
+					<div class="ml-auto">
+						<a href="#" class="border border-blue-600 rounded-full px-4 py-1 text-blue-600 text-xs font-bold">
+							<i class="fa fa-plus mr-1"></i>
+							Follow
+						</a>	
+					</div>
+				</div>
+				<div class="flex justify-between items-center mb-2 px-3 py-2">
+					<a href="#" style="flex: 20%;">
+						<img src="img/tuhinphoto.jpg" alt="My Image" class="w-full h-auto rounded-full">
+					</a>
+					<div class="flex flex-col p-2" style="flex: 50%;">
+						<h3 class="text-xs text-gray-900 font-medium">Engr. Md. Rakibul Islam</h3>
+						<p class="text-xs">Lorem ipsum dolor sit amet consectetur</p>
+					</div>
+					<div>
+						<a href="#" class="border border-blue-600 rounded-full px-4 py-1 text-blue-600 text-xs font-bold" style="flex: 30%;">
+							<i class="fa fa-plus mr-1"></i>
+							Follow
+						</a>	
+					</div>
+				</div>
+				<div class="p-3">
+					<p class="text-sm text-blue-600 pb-2"><a href="#" class="hover:bg-blue-200 p-1">View all recommendations</a></p>
+				</div>
+			</div>
+
+				 <!-- Sidebar Middle -->
+			<div class="flex flex-col border border-gray-200 rounded-lg bg-white mt-2">
+					<div class="flex justify-between mb-2 p-3">
+						<h4 class="text-sm font-medium text-gray-500">Today's most viewed courses</h4>
+						<img src="img/sidebar_right.png" alt="">
+				    </div>
+				<a href="#" class="hover:bg-gray-200">
+					<div class="flex flex-col px-3 py-2">
+						<h4 class="text-xs font-bold text-black">1. The Six Morning Habits of High Performance</h4>
+						<p class="text-gray-400 text-xs">Perter Mockaitis | How to be awesome in the morning</p>
+					</div>
+				</a>
+				<a href="#" class="hover:bg-gray-200">
+					<div class="flex flex-col px-3 py-2">
+						<h4 class="text-xs font-bold text-black">2. Unconscious Bias</h4>
+						<p class="text-gray-400 text-xs">Stacey Gordon</p>
+					</div>
+				</a>
+				<a href="#" class="hover:bg-gray-200">
+					<div class="flex flex-col px-3 py-2">
+						<h4 class="text-xs font-bold text-black">3. Critical Thinking for Better Judgment</h4>
+						<p class="text-gray-400 text-xs">Becki Saltzman</p>
+					</div>
+				</a>
+				<div class="p-3">
+					<p class="text-sm text-blue-600 pb-2"><a href="#" class="hover:bg-blue-200 p-1">Show more on LinkedIn Learning</a></p>
+				</div>
+			</div>
+				 <!-- Sidebar Middle End -->
+
+					  <!-- Sidebar Bottom -->
+			<div class="flex flex-col mt-2 sticky top-20">
+					<!-- <div class="mb-2 bg-white border border-gray-200 rounded-lg w-full"> -->
+						<img src="img/linkedin.jpg" alt="LinkedIn" class="mb-2 bg-white border border-gray-200 rounded-lg w-full">
+				    <!-- </div> -->
+			<div class="flex flex-col mt-4">
+				<div class="flex justify-around mb-2">
+					<a href="#" class="text-sm text-gray-500 hover:text-blue-400 hover:underline">About</a>
+					<a href="#" class="text-sm text-gray-500 hover:text-blue-400 hover:underline">Accessibility</a>
+					<a href="#" class="text-sm text-gray-500 hover:text-blue-400 hover:underline">Help Center</a>
+				</div>
+				<div class="flex justify-around mb-2">
+					<a href="#" class="text-sm text-gray-500 hover:text-blue-400 hover:underline">Privacy & Terms <i class="fa fa-angle-down"></i></a>
+					<a href="#" class="text-sm text-gray-500 hover:text-blue-400 hover:underline">Ad Choices</a>
+					<a href="#" class="text-sm text-gray-500 hover:text-blue-400 hover:underline">Advertising</a>
+				</div>
+				<div class="flex justify-around mb-2">
+					<a href="#" class="text-sm text-gray-500 hover:text-blue-400 hover:underline">Business Services <i class="fa fa-angle-down"></i></a>
+					<a href="#" class="text-sm text-gray-500 hover:text-blue-400 hover:underline">Get the LinkedIn app</a>
+				</div>
+				<div class="mb-2 text-center">
+					<a href="#" class="text-sm text-gray-500 hover:text-blue-400 hover:underline">More</a>
+				</div>
+				<div class="flex justify-center mb-2 text-center p-3">
+					<img src="img/linkedin_foot.png" alt="linkedin foot">
+					<p class="text-xs text-gray-500">LinkedIn Corporation © 2021</p>
+				</div>
+			</div>
+		 </div><!-- Sidebar Bottom End  -->	  
+		</div>
+	</div><!-- Container End  -->	  	
+  </main><!-- Main Section End  -->	      
+		  
+</body>
+</html>
